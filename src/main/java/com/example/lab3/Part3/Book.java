@@ -2,10 +2,10 @@ package com.example.lab3.Part3;
 
 public class Book {
 
-    String title;
-    String author;
-    String isbn;
-    int publishedYear;
+   private String title;
+   private String author;
+   private String isbn;
+   private int publishedYear;
 
     public Book(String title, String author, String isbn, int publishedYear) {
         this.title = title;
