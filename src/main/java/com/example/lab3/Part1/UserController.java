@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @AllArgsConstructor
 public class UserController {
 UserService userService;
+
   @GetMapping("/registerUser/{name}/{email}")
         public String Register(@PathVariable String name, @PathVariable String email){
 
