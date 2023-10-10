@@ -2,8 +2,8 @@ package com.example.lab3.Part2;
 
 public class User {
 
-    String username;
-    String email;
+    private String username;
+   private String email;
 
     public User(String username, String email) {
         this.username = username;
